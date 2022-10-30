@@ -1,0 +1,13 @@
+)Oppgave 10b: Ikke unntak for tom liste!
+7Oppgave 3k: Feil unntak for nullverdier i oppdater()!
+=Oppgave 3m: Metoden kaster feil type unntak for indeksfeil!
+0Indeks må være innenfor størelsen av listen
+/Oppgave 5a: Kan ikke legge inn på indeks -1!
+0Indeks må være innenfor størelsen av listen
+=Oppgave 5c: Kan ikke legge inn på indeks 1 i en tom liste!
+EOppgave 5g: Feil i indekssjekken! 0 <= indeks <= antall er tillatt!
+/Oppgave 6b: Indekssjekken kaster feil unntak!
+0Oppgave 6d: Indekssjekken kaster feil unntak!!
+0Oppgave 6f: Indekssjekken kaster feil unntak!!
+
+*Oppgave 8b: Det kastes feil type unntak!
