@@ -106,9 +106,9 @@ public class DobbeltLenketListe<T> implements Liste<T> {
         Objects.requireNonNull(verdi, "Null-verdier er ikke tillatt!");
 
         if (antall == 0) {                                              //Hvis antall == 0, så er listen tom, og vi lager en node som er lik hode, og hale
-            hode = hale = new Node<T>(verdi, null,null);
+            hode = hale = new Node<>(verdi, null,null);
         } else {
-            hale.neste = new Node<T>(verdi,hale,null);             //Hvis det allerede er i listen, så lager vi en ny node med verdi = verdi, node.forrige = hale, og node.neste = null
+            hale.neste = new Node<>(verdi,hale,null);             //Hvis det allerede er i listen, så lager vi en ny node med verdi = verdi, node.forrige = hale, og node.neste = null
             hale = hale.neste;                                          //Vi oppdaterer hale til å være neste i rekka
         }
         antall++;                                                       //Antall oppdateres
@@ -301,6 +301,7 @@ public class DobbeltLenketListe<T> implements Liste<T> {
     public void nullstill() {
         throw new UnsupportedOperationException();
     }
+
     //Oppgave 2a)
     @Override
     public String toString() {
@@ -393,9 +394,9 @@ public class DobbeltLenketListe<T> implements Liste<T> {
 
     } // class DobbeltLenketListeIterator
 
-    public static <T> void sorter(Liste<T> liste, Comparator<? super T> c) {
+    /*public static <T> void sorter(Liste<T> liste, Comparator<? super T> c) {
         throw new UnsupportedOperationException();
-    }
+    }*/
 
 
 
