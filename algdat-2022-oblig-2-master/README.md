@@ -50,3 +50,6 @@ Som påpekt ved en tidligere commit, det var ting i testen for oppgave 8 som ikk
 Det som er endret skal være kommentert på.
 
 Jeg vil også si at grunnen til så kort mellom commit'ene er at jeg og github/intellij ikke har vært gode venner dette semesteret, så for å få ting til å virke, så måtte jeg resete pc'en til fabrikk instillinger, og for å ikke få gjentatt samme problemet fra oblig 1, valgte jeg å lage et helt nytt repo i steden.
+
+Når det kommer til warnings i koden;
+Alt som er igjen (ikke kommentert vekk fordi de ikke ble brukt) var der fra første stund med den utleverte malen.
